@@ -11,9 +11,12 @@
     <script src="kendo/js/jquery.min.js"></script>
     <script src="kendo/js/kendo.mobile.min.js"></script>
     <script src="app.js"></script>
+    <script src="bower_components/everlive/min/everlive.all.min.js"></script>
+    <script src="dataProviders/probaDeLaNavegacion.js"></script>
 </head>
 
 <body id="kendoUiMobileApp">
+    <script src="components/editableListView/index.js"></script>
     <script src="components/home/index.js"></script>
     <div data-role="layout" data-id="main">
         <header data-role="header">
@@ -26,7 +29,8 @@
 
         <footer data-role="footer">
             <div data-role="tabstrip" id="navigation-container">
-                <a href="components/home/view.html" data-icon="home">Home View</a>
+                <a href="components/home/view.html" data-icon="home">Inicio</a>
+                <a href="components/editableListView/view.html" data-icon="bookmarks">Categorías</a>
             </div>
         </footer>
     </div>
